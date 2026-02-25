@@ -30,6 +30,12 @@ try
     var employee6 = new CommisionEmployee(6060, "Jaime", "Montoya", true, new Date(1987, 10, 18), new Date(2015, 5, 15), 0.03f, 250000000);
     employees.Add(employee6);
 
+    var employee7 = new BaseCommisionEmployee(7070, "Juan", "Montoya", true, new Date(1995, 6, 6), new Date(2025, 2, 27), 0.015f, 100000000, 600000);
+    employees.Add(employee7);
+
+    var employee8 = new BaseCommisionEmployee(8080, "Katherine", "Molina", true, new Date(1993, 2, 7), new Date(2026, 2, 24), 0.015f, 0, 600000);
+    employees.Add(employee8);
+
     foreach ( var employe in employees )
     {
         Console.WriteLine(new string('-', 47));

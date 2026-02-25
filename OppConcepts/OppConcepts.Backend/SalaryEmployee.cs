@@ -30,7 +30,7 @@
 
         private decimal ValidateSalary(decimal salary)
         {
-            if (salary < 0)
+            if (salary < 2000000)
             {
                 throw new ArgumentOutOfRangeException(nameof(salary), "Salary must be greater than or equal to $2,000,000");
             }
